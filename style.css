@@ -460,7 +460,7 @@ footer .social-links {
 /* BACK TO TOP */
 #backToTopButton {
   position: fixed;
-  bottom: 1rem;
+  bottom: 2rem;
   right: 2.5rem;
 
   opacity: 0;
@@ -740,4 +740,30 @@ footer .col-a {
   justify-content: flex-end;
 }
 
+  /*=== Scroll CSS =================================*/
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border: none;
+  }
+
+  /*=== Botão do WhatsApp =================================*/
+  .floatBtn-icon-wpp-storage {
+    position: fixed;
+    bottom: 2rem;
+    left: -6rem;
+    z-index: 100;
+  }
+
+  .icon-wpp-storage {
+    width: 24.2rem;
+    height: 6rem;
+  }
+
+  .icon-wpp-storage {
+    width: 24rem;
+    height: 6rem;
+  }
 }
